@@ -3,13 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Nos actions | EducJeunes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        
+    .hero {
+      background: #03152d; 
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 4rem 2rem;
+      flex-wrap: wrap;
+      
+    }
+    .hero-text {
+      max-width: 700px;
+      text-align: left;
+    }
+    .hero-text h1 {
+      font-size: 5rem;
+      margin: 0;
+      font-weight: 700;
+    }
+    .hero-text p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .hero img {
+      max-width: 7100px;
+      border-radius: 8px;
+      
+    }
+    .cards-section {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 1.5rem;
+      border-radius:30px ;
+      margin-top: -63px;
+  
+      background: white;
+    }
+    .card {
+      width: 400px;
+      margin-left: 100px;
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      position: relative;
+      
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      background: #ffd633; /* jaune */
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #0d2c54;
+      margin-bottom: 1rem;
+    }
+    .icon img {
+      width: 30px;
+      height: 30px;
+    }
+    .card h3 {
+      color: #0d2c54;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .cta-banner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background: #0d2c54; /* bleu foncé */
+      color: white;
+      padding: 1rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius:20px ;
+    }
+    .cta-text {
+      max-width: 500px;
+      margin-left: 150px;
+    }
+    .cta-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    .cta-text p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .cta-buttons button {
+      margin-right: 1rem;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn-green { background: #2e8b57; color: white; }
+    .btn-green:hover { background: #256b45; }
+    .btn-gray { background: #ccc; color: #222; }
+    .btn-gray:hover { background: #aaa; }
+    .cta-image {
+      position: relative;
+      flex: 1;
+      text-align: right;
+    }
+    .cta-image img {
+      max-width: 350px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+ 
+    </style>
 </head>
 <body>
-    
-</body>
+   
+  <section class="hero">
+    <div class="hero-text">
+      <h1>EduJeunes</h1>
+      <p>Nous agissons chaque jour pour offrir aux jeunes les outils dont ils ont besoin pour réussir.</p>
+    </div>
+    <img src="../assets/images/header_action.png" alt="Jeunes en apprentissage">
+  </section>
+   <section class="cards-section">
+    <div class="card">
+      <div class="icon"><img src="../assets/images/icon1_action.png" alt="" srcset=""></div>
+      <h3>Leadership jeune</h3>
+      <p>Nous encourageons les jeunes à devenir des leaders engagés dans leurs communautés.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><img src="../assets/images/icon2_action.png" alt="" srcset=""></div>
+      <h3>Éducation</h3>
+      <p>Nous facilitons l’accès à une éducation de qualité pour tous les jeunes.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><img src="../assets/images/icon3_action.png" alt="" srcset=""></div>
+      <h3>Insertion et emploi</h3>
+      <p>Nous accompagnons les jeunes vers l’emploi et l’entrepreneuriat.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><img src="../assets/images/icon4_action.png" alt="" srcset=""></div>
+      <h3>Innovation sociale</h3>
+      <p>Nous développons des solutions innovantes pour des défis éducatifs et sociaux.</p>
+    </div>
+  </section>
+   <section class="cta-banner">
+    <div class="cta-text">
+      <h2>Envie d’agir avec nous ?</h2>
+      <p>Devenez bénévole ou partenaire et participez au changement.</p>
+      <div class="cta-buttons">
+        <button class="btn-green">Devenir bénévole</button>
+        <button class="btn-gray">Devenir partenaire</button>
+      </div>
+    </div>
+    <div class="cta-image">
+      <img src="../assets/images/cta_action.png" alt="Jeunes souriants">
+    </div>
+  </section>
+  <br><br>
+
 </html>
