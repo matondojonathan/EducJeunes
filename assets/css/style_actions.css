@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Nos actions | EducJeunes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <style>
+ 
         
     .hero {
       background: #03152d; 
@@ -138,52 +128,4 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
  
-    </style>
-</head>
-<body>
-   
-  <section class="hero">
-    <div class="hero-text">
-      <h1>EduJeunes</h1>
-      <p>Nous agissons chaque jour pour offrir aux jeunes les outils dont ils ont besoin pour réussir.</p>
-    </div>
-    <img src="../assets/images/header_action.png" alt="Jeunes en apprentissage">
-  </section>
-   <section class="cards-section">
-    <div class="card">
-      <div class="icon"><img src="../assets/images/icon1_action.png" alt="" srcset=""></div>
-      <h3>Leadership jeune</h3>
-      <p>Nous encourageons les jeunes à devenir des leaders engagés dans leurs communautés.</p>
-    </div>
-    <div class="card">
-      <div class="icon"><img src="../assets/images/icon2_action.png" alt="" srcset=""></div>
-      <h3>Éducation</h3>
-      <p>Nous facilitons l’accès à une éducation de qualité pour tous les jeunes.</p>
-    </div>
-    <div class="card">
-      <div class="icon"><img src="../assets/images/icon3_action.png" alt="" srcset=""></div>
-      <h3>Insertion et emploi</h3>
-      <p>Nous accompagnons les jeunes vers l’emploi et l’entrepreneuriat.</p>
-    </div>
-    <div class="card">
-      <div class="icon"><img src="../assets/images/icon4_action.png" alt="" srcset=""></div>
-      <h3>Innovation sociale</h3>
-      <p>Nous développons des solutions innovantes pour des défis éducatifs et sociaux.</p>
-    </div>
-  </section>
-   <section class="cta-banner">
-    <div class="cta-text">
-      <h2>Envie d’agir avec nous ?</h2>
-      <p>Devenez bénévole ou partenaire et participez au changement.</p>
-      <div class="cta-buttons">
-        <button class="btn-green">Devenir bénévole</button>
-        <button class="btn-gray">Devenir partenaire</button>
-      </div>
-    </div>
-    <div class="cta-image">
-      <img src="../assets/images/cta_action.png" alt="Jeunes souriants">
-    </div>
-  </section>
-  <br><br>
-
-</html>
+    
