@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Nos actions | EducJeunes</title>
+
+    <title>Nos Actions | EducJeunes</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../font/css/all.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
     <style>
         
     .hero {
@@ -139,8 +148,29 @@
     }
  
     </style>
-</head>
+  </head>
 <body>
+
+  <!-- ==========================================
+    HEADER
+  ========================================== -->
+  <header class="header">
+    <div class="container">
+        <a class="logo" href="../index.html">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <span>EducJeunes</span>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a class="active" href="actions.html">Nos Actions</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="contacts.html">Faire un don</a>
+    </div>
+  </header>
    
   <section class="hero">
     <div class="hero-text">
@@ -186,4 +216,89 @@
   </section>
   <br><br>
 
+  <!-- ==========================================
+                FOOTER
+========================================== -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+
+            <!-- Présentation -->
+
+            <div class="footer-about">
+                <a href="../index.html" class="footer-logo">
+                    <i class="fa-solid fa-book-open-reader"></i>EducJeunes
+                </a>
+                <p>
+                    EducJeunes est une ONG engagée pour l'éducation,
+                    la formation et l'insertion socio-professionnelle
+                    des jeunes afin de construire un avenir plus
+                    inclusif et durable.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+
+            <div>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="actions.html">Nos Actions</a></li>
+                    <li><a href="evenements.html">Événements</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Programmes -->
+
+            <div>
+                <h3>Nos Programmes</h3>
+                <ul>
+                    <li><a href="actions.html">Soutien scolaire</a></li>
+                    <li><a href="actions.html">Formation professionnelle</a></li>
+                    <li><a href="actions.html">Mentorat</a></li>
+                    <li><a href="actions.html">Entrepreneuriat</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+
+            <div>
+                <h3>Nous contacter</h3>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i>Kinshasa, RDC</li>
+                    <li><i class="fa-solid fa-phone"></i>+243 000 000 000</li>
+                    <li><i class="fa-solid fa-envelope"></i>contact@educjeunes.org</li>
+                    <li><i class="fa-solid fa-clock"></i>Lun - Ven : 08h00 - 17h00</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© 2026 <strong>EducJeunes</strong> — Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Conditions d'utilisation</a>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+</body>
 </html>
