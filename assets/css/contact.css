@@ -46,7 +46,7 @@ body {
     padding: 60px 0;
 }
 
-.container {
+.contact-container {
     max-width: 1100px;
     margin: 0 auto 30px auto;
     padding: 40px 60px;
@@ -153,7 +153,7 @@ button[type="submit"]:hover {
     border-radius: 15px;
 }
 
-.btn {
+.don-group {
     display: inline-block;
     border-radius: 5px;
     gap: 10px;
@@ -253,7 +253,7 @@ button[type="submit"]:hover {
         padding: 40px 30px;
     }
 
-    .container {
+    .contact-container {
         padding: 30px;
     }
 
@@ -321,7 +321,7 @@ button[type="submit"]:hover {
         margin-top: 20px;
     }
 
-    .btn {
+    .don-group {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
