@@ -1,15 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Contactez-nous | EducJeunes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../assets/css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  </head>
+  <body>
+
+    <!-- ==========================================
+      HEADER
+    ========================================== -->
+
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="../index.html">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span>EducJeunes</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="actions.html">Nos Actions</a></li>
+                    <li><a href="evenements.html">Événements</a></li>
+                    <li><a class="active" href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="btn" href="contacts.html">Faire un don</a>
+        </div>
+    </header>
+
+    <main>
+      <section id="acceuil">
+        <div class="acceuil-text">
+          <h2>Contactez-nous</h2>
+          <p>Prenez contact avec nous !</p>
+        </div>
+        <img src="image1.jpg" alt="Contact Image" class="acceuil-img" />
+      </section>
+
+      <section id="contact">
+        <div class="contact-container">
+          <div class="col-contact">
+            <h2>Nos Coordonnées</h2>
+            <div>
+              <p>
+                <strong>Adresse :</strong> 23ème étage, Business Center Tours
+                Jumelles Mpila Brazzaville, Republique du Congo
+              </p>
+            </div>
+
+            <div>
+              <p><strong>Email :</strong> contact@edujenes.org</p>
+            </div>
+            <div>
+              <p><strong>Téléphone :</strong> +242 06 123 45 67</p>
+            </div>
+            <div>
+              <p>
+                <strong>Heure d'ouverture :</strong>
+                Lundi - Vendredi : 8h00 - 17h00
+              </p>
+            </div>
+          </div>
+
+          <!-- Formulaire de contact -->
+          <div class="col-contact">
+            <h2>Formulaire de Contact</h2>
+            <form action="submit_form.php" method="post">
+              <div class="form-row">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Votre nom"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Votre email"
+                />
+              </div>
+
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Sujet"
+              />
+
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Votre message"
+              ></textarea
+              ><br /><br />
+
+              <button type="submit">Envoyer le message</button>
+            </form>
+          </div>
+
+          <div class="don-container">
+            <div class="don-text">
+              <h2>Faire un don</h2>
+              <p>
+                Votre soutien nous permet de continuer à changer des vies chaque
+                jour.
+              </p>
+              <div class="don-group">
+                <button type="button" class="btn1">10 000 FCFA</button>
+                <button type="button" class="btn2">25 000 FCFA</button>
+                <button type="button" class="btn3">50 000 FCFA</button>
+              </div>
+              <div class="input-number">
+                <input type="number" placeholder="Autre montant" />
+              </div>
+              <div class="input-radio">
+                <input type="radio" name="don" value="anonyme" id="anonyme" />
+                <label for="anonyme"
+                  >Je souhaite que mon nom reste anonyme</label
+                >
+              </div>
+              <div class="btn4">
+                <button type="submit" class="btn-don1">
+                  Faire un don maintenant
+                </button>
+              </div>
+            </div>
+
+            <div class="don-image">
+              <img src="image2.jpg" alt="Faire un don" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-contact2">
+          <h2>Autre facon de nous contactez</h2>
+          <article>
+            <i class="fa-solid fa-heart"></i>
+            <h4>Devenir bénévoie</h4>
+            <p>Donnez de votre temps et partager avec vos talents.</p>
+          </article>
+
+          <article>
+            <i class="fa-solid fa-handshake"></i>
+            <h4>Devenir partenaire</h4>
+            <p>Rejoignez notre équipe de bénévoles et contribuez.</p>
+          </article>
+
+          <article>
+            <i class="fa-solid fa-user"></i>
+            <h4>Parainer un jeune</h4>
+            <p>collaborons avec nous pour plus d'impact.</p>
+          </article>
+
+          <article>
+            <i class="fa-solid fa-share-nodes"></i>
+            <h4>Partager notre mission</h4>
+            <p>pariez de rous autour.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================
+      FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <a href="../index.html" class="footer-logo">
+                    <i class="fa-solid fa-book-open-reader"></i>EducJeunes</a>
+                <p>
+                    EducJeunes est une ONG engagée pour l'éducation,
+                    la formation et l'insertion socio-professionnelle
+                    des jeunes afin de construire un avenir plus
+                    inclusif et durable.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="actions.html">Nos Actions</a></li>
+                    <li><a href="evenements.html">Événements</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Nos Programmes</h3>
+                <ul>
+                    <li><a href="actions.html">Soutien scolaire</a></li>
+                    <li><a href="actions.html">Formation professionnelle</a></li>
+                    <li><a href="actions.html">Mentorat</a></li>
+                    <li><a href="actions.html">Entrepreneuriat</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Nous contacter</h3>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i>Kinshasa, RD</li>
+                    <li><i class="fa-solid fa-phone"></i>+243 000 000 000</li>
+                    <li><i class="fa-solid fa-envelope"></i>contact@educjeunes.org</li>
+                    <li><i class="fa-solid fa-clock"></i>Lun - Ven : 08h00 - 17h00</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© 2026 <strong>EducJeunes</strong> — Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Conditions d'utilisation</a>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>
