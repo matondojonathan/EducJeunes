@@ -1,49 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Événements | EducJeunes</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="../font/css/all.css">
+    <link rel="stylesheet" href="../font/css/all.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/evenements.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- ==========================================
             HEADER
     ========================================== -->
 
     <header class="header">
-        <div class="container">
-            <a class="logo" href="../index.html">
-                <i class="fa-solid fa-book-open-reader"></i>
-                <span>EducJeunes</span>
-            </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="actions.html">Nos Actions</a></li>
-                    <li><a class="active" href="evenements.html">Événements</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-                </ul>
-            </nav>
-            <a class="btn" href="contacts.html">Faire un don</a>
-        </div>
-
+      <div class="container">
+        <a class="logo" href="../index.html">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <span>EducJeunes</span>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="actions.html">Nos Actions</a></li>
+            <li><a class="active" href="evenements.html">Événements</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="btn" href="contacts.html">Faire un don</a>
+      </div>
     </header>
 
     <!-- ==========================================
@@ -51,15 +51,92 @@
     ========================================== -->
 
     <main>
-        <section class="page-banner">
-            <div class="container">
-                <h1>Nos Événements</h1>
+      <section class="events">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-tag">Agenda</span>
+            <h2>Événements à venir</h2>
+            <p>
+              Découvrez nos prochains événements et rejoignez-nous pour faire la
+              différence.
+            </p>
+          </div>
+
+          <div class="actions">
+            <button class="btn-outline">Tous</button>
+            <button class="btn-outline">Ateliers</button>
+            <button class="btn-outline">Formations</button>
+            <button class="btn-outline">Conférences</button>
+            <button class="btn-outline">Communautaires</button>
+          </div>
+
+          <div class="events-grid">
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800"alt="Atelier CV"/>
+              <div class="event-content">
+                <span class="event-date"><i class="fa-solid fa-calendar"></i> 15 Juin 2026 - Brazzaville</span>
+                <h3>Atelier : CV & Entretien d'embauche</h3>
                 <p>
-                    Découvrez nos conférences, ateliers, formations et
-                    rencontres destinés aux jeunes.
+                  Apprenez à créer un CV percutant et à réussir vos entretiens
+                  d'embauche.
                 </p>
+                <a href="#" class="btn">S'inscrire →</a>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800"alt="Formation numérique"/>
+              <div class="event-content">
+                <span class="event-date"><i class="fa-solid fa-calendar"></i> 28 Juin 2026 - En ligne</span>
+                <h3>Formation : Compétences numériques</h3>
+                <p>
+                  Maîtrisez les outils numériques essentiels pour booster votre
+                  employabilité.
+                </p>
+                <a href="#" class="btn">S'inscrire →</a>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=800"alt="Conférence" />
+              <div class="event-content">
+                <span class="event-date"></p>
+                  <i class="fa-solid fa-calendar"></i> 10 Juil. 2026 -
+                  Brazzaville
+                </span>
+                <h3>Conférence : Entrepreneuriat jeune</h3>
+                <p>
+                  Rencontrez des entrepreneurs inspirants et échangez sur vos
+                  idées.
+                </p>
+                <a href="#" class="btn">S'inscrire →</a>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800"alt="Journée communautaire"/>
+              <div class="event-content">
+                <span class="event-date"><i class="fa-solid fa-calendar"></i> 22 Juil. 2026 - Pointe-Noire</span>
+                <h3>Journée communautaire</h3>
+                <p>Une journée d'actions solidaires pour notre communauté.</p>
+                <a href="#" class="btn">S'inscrire →</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="cta">
+            <div class="cta-content">
+              <h2>Ne manquez aucun événement !</h2>
+              <p>Abonnez-vous à notre newsletter.</p>
+              <form class="cta-buttons">
+                <input type="email" placeholder="Votre email" required />
+                <button type="submit" class="btn btn-primary">S'abonner</button>
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- ==========================================
@@ -67,62 +144,65 @@
     ========================================== -->
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <a href="../index.html" class="footer-logo">
-                        <i class="fa-solid fa-book-open-reader"></i>EducJeunes </a>
-                    <p>
-                        EducJeunes est une ONG engagée pour l'éducation,
-                        la formation et l'insertion socio-professionnelle
-                        des jeunes.
-                    </p>
-                    <div class="social-links">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div>
-                    <h3>Navigation</h3>
-                    <ul>
-                        <li><a href="../index.html">Accueil</a></li>
-                        <li><a href="actions.html">Nos Actions</a></li>
-                        <li><a href="evenements.html">Événements</a></li>
-                        <li><a href="contacts.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Nos Programmes</h3>
-                    <ul>
-                        <li><a href="actions.html">Soutien scolaire</a></li>
-                        <li><a href="actions.html">Formation professionnelle</a></li>
-                        <li><a href="actions.html">Mentorat</a></li>
-                        <li><a href="actions.html">Entrepreneuriat</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Nous contacter</h3>
-                    <ul class="contact-info">
-                        <li><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</li>
-                        <li><i class="fa-solid fa-phone"></i> +243 000 000 000</li>
-                        <li><i class="fa-solid fa-envelope"></i> contact@educjeunes.org</li>
-                        <li><i class="fa-solid fa-clock"></i> Lun - Ven : 08h00 - 17h00</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <a href="../index.html" class="footer-logo">
+              <i class="fa-solid fa-book-open-reader"></i>EducJeunes
+            </a>
+            <p>
+              EducJeunes est une ONG engagée pour l'éducation, la formation et
+              l'insertion socio-professionnelle des jeunes.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <hr>
-            <div class="footer-bottom">
-                <p>© 2026 <strong>EducJeunes</strong> — Tous droits réservés.</p>
-                <div class="footer-links">
-                    <a href="#">Mentions légales</a>
-                    <a href="#">Politique de confidentialité</a>
-                    <a href="#">Conditions d'utilisation</a>
-                </div>
-            </div>
+          </div>
+          <div>
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="../index.html">Accueil</a></li>
+              <li><a href="actions.html">Nos Actions</a></li>
+              <li><a href="evenements.html">Événements</a></li>
+              <li><a href="contacts.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Nos Programmes</h3>
+            <ul>
+              <li><a href="actions.html">Soutien scolaire</a></li>
+              <li><a href="actions.html">Formation professionnelle</a></li>
+              <li><a href="actions.html">Mentorat</a></li>
+              <li><a href="actions.html">Entrepreneuriat</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Nous contacter</h3>
+            <ul class="contact-info">
+              <li><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</li>
+              <li><i class="fa-solid fa-phone"></i> +243 000 000 000</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> contact@educjeunes.org
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i> Lun - Ven : 08h00 - 17h00
+              </li>
+            </ul>
+          </div>
         </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>© 2026 <strong>EducJeunes</strong> — Tous droits réservés.</p>
+          <div class="footer-links">
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Conditions d'utilisation</a>
+          </div>
+        </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
