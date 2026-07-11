@@ -29,20 +29,6 @@ img {
   display: block;
   border-radius: 8px;
 }
-.header {
-  background: var(--blanc);
-  position: sticky;
-  top: 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  z-index: 1000;
-}
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 0;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -184,19 +170,6 @@ a {
   border: none;
   min-width: 250px;
 }
-.footer {
-  background: var(--dark);
-  color: var(--blanc);
-  padding: 80px 0 25px;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.2fr;
-  gap: 50px;
-  margin-bottom: 50px;
-}
-
 @media (min-width: 768px) {
   .header .container {
     flex-direction: row;
